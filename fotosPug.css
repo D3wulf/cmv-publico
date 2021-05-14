@@ -1,0 +1,24 @@
+body {
+    background-color: darkgray;
+}
+
+img {
+    width: 30%;
+    height: 480px;
+    border-radius: 5px;
+    float: left;
+    margin: 20px;
+}
+
+img:hover {
+    border: 2px solid black;
+    filter: grayscale(80%);
+}
+
+header {
+    text-align: center;
+}
+
+.contenedor {
+    width: 100%;
+}
