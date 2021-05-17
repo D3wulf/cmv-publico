@@ -112,8 +112,15 @@ header h1 {
 }
 
 .footer {
+    margin: 20px;
+    background-color: #dabe2e;
+    font-weight: bold;
+    box-shadow: 3px 2px 5px 4px dimgrey;
+    padding: 4px;
+    border-radius: 5px;
     text-align: center;
-    background-color: dimgray;
+    width: 30%;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 768px) {
