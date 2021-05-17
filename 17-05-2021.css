@@ -16,7 +16,7 @@ header {
     background-color: dimgrey;
     text-align: center;
     border-radius: 5px;
-    box-shadow: 5px 5px 5px 15px #dabe2e;
+    box-shadow: 5px 0px 2px 13px #dabe2e
 }
 
 .topbar ul {
@@ -52,12 +52,24 @@ header {
 }
 
 .contenido {
-    display: flex;
     margin-top: 30px;
 }
 
+.imagenes {
+    width: 100%;
+    height: 500px;
+}
+
 figure {
-    margin: 30px 10px 20px 20px;
+    /* margin: 30px 10px 20px 20px; */
+    float: left;
+    width: 29%;
+    z-index: 999;
+}
+
+figcaption {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
 }
 
 img {
@@ -66,58 +78,36 @@ img {
     border-radius: 5px;
     margin: 0px;
     box-shadow: 0px 0px 0px 4px #dabe2e;
-    box-sizing: border-box
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 img:hover {
     border: 2px solid black;
     filter: grayscale(80%);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 header h1 {
     margin-top: 10px;
 }
 
-.sidebar {
-    width: 11%;
-    float: left;
-    text-align: center;
-    padding: 2px;
-}
-
-.sidebar ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.sidebar li {
-    width: 100%;
-    height: 100px;
-    background-color: dimgrey;
-}
-
-.sidebar a {
-    height: 40px;
-    display: block;
-    width: 100%;
-    border: 1px solid black;
-    margin: 0;
-    padding: 27px 10px 10px 10px;
-    background-color: lightcyan;
-    color: black;
+.parrafo {
+    margin: 20px;
+    background-color: #dabe2e;
     font-weight: bold;
+    box-shadow: 3px 2px 5px 4px dimgrey;
+    padding: 4px;
     border-radius: 5px;
-    text-decoration: none;
 }
 
-.sidebar a:hover {
-    background-color: burlywood;
+.parrafo h3::first-letter {
+    font-size: 40px;
 }
 
-.contenedor {
-    width: 100%;
-    display: flex;
-    margin-left: 40px;
+.parrafo p {
+    padding-left: 7px;
 }
 
 .footer {
@@ -145,4 +135,14 @@ header h1 {
         width: 100%;
         display: block;
     }
+}
+
+.test {
+    position: absolute;
+    background-color: #dabe2e;
+    height: 200px;
+    width: 77%;
+    z-index: -1;
+    margin: 266px;
+    box-shadow: 3px 2px 5px 4px dimgrey;
 }
