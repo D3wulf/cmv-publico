@@ -17,38 +17,46 @@ img:hover {
 
 header {
     text-align: center;
-}
-
-.contenedor {
-    width: 90%;
-    border: 1px solid #dadada;
-    border-radius: 5px;
-    display: inline-flex;
-    float: left;
+    background-color: dimgray;
+    height: 100px;
+    padding: 5px;
 }
 
 .sidebar {
-    width: 10%;
+    width: 11%;
     float: left;
+    text-align: center;
+    padding: 6px;
 }
 
 .sidebar p {
-    height: 20px;
-    width: 20px;
+    height: 40px;
     display: block;
+    width: 100%;
+    border: 1px solid black;
+    margin: 0;
+    padding: 27px 10px 10px 10px;
+    background-color: lightcyan;
+    color: black;
+    font-weight: bold;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar p:hover {
+    background-color: burlywood;
 }
 
 .contenido {
     display: flex;
 }
 
-figcaption,
-.img-footer {
-    font-style: italic;
-    color: black;
-    font-size: 1.1em;
+.footer {
     text-align: center;
-    margin: 10px 0px;
+    background-color: dimgray;
 }
 
 @media only screen and (max-width: 768px) {
