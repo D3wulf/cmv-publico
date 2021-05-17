@@ -4,13 +4,14 @@ body {
 
 .contenido {
     display: flex;
+    margin-top: 10px;
 }
 
 img {
     width: 100%;
     height: 380px;
     border-radius: 5px;
-    margin: 20px;
+    margin: 0px;
     box-shadow: 0 0 10px rgba(228, 157, 6, 0.8);
 }
 
@@ -25,6 +26,8 @@ header {
     height: 100px;
     padding: 5px;
     border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px;
+    rgba(3, 3, 2, 0.8);
 }
 
 header h1 {
