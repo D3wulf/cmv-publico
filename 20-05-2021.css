@@ -84,6 +84,8 @@ figcaption {
 
 figcaption p {
     margin: 0;
+    position: relative;
+    top: 14px;
 }
 
 img {
