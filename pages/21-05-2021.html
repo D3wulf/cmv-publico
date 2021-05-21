@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+HTML
+web o pagina:
+autor: Carlos Boni
+fecha: Marzo 2021
+-->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- importante SEO para la etiqueta del navegador -->
+    <title>Titulo en Etiqueta del Navegador</title>
+
+    <!-- una fuente de Google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet" />
+
+    <!-- una hoja de estilos externa-->
+
+    <!-- una hoja de estilos personalizada-->
+    <link href="../assets/css/21-05-2021.css" rel="stylesheet" />
+
+    <!-- iconos u otros elementos externos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- solo aquellos estilos que solo aplican a esta pagina -->
+
+
+    <!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- scripts externos de desarrollo propio en Javascript o JQuery -->
+    <script src="00-modelo.js"></script>
+
+    <!-- scripts personalizados Javascript o JQuery -->
+    <script>
+        // aqui el codigo ...
+    </script>
+</head>
+
+
+<body>
+
+    <div class="marco">
+        <div class="encabezado">
+            <div class="titulo">
+                <h1>Imágenes bonitas</h1>
+                <h2>Carlino/Pug</h2>
+            </div>
+        </div>
+        <div class="migas"><a href="../index.html">Index</a>/<a href="#">Grid de fotos</a> <button value="noche" id="boton">Noche</button></div>
+        <div class="lado"></div>
+        <div class="contenido">
+            <figure>
+                <img src="../assets/images/dog1.jpg" alt="Imagen de un carlino">
+                <figcaption>Fig.1 - Carlino haciendo deporte</figcaption>
+            </figure>
+            <figure>
+                <img src="../assets/images/dog2.jpg" alt="Imagen de un carlino">
+                <figcaption>Fig.2 - Carlino de fiesta</figcaption>
+            </figure>
+
+            <figure>
+                <img src="../assets/images/dog3.jpg" alt="Imagen de un carlino">
+                <figcaption>Fig.3 - Carlino comestible</figcaption>
+            </figure>
+
+
+
+        </div>
+        <div class="pie">Pie de página</div>
+    </div>
+
+    <script>
+        // seccion de codigo javascript 
+        $(document).ready(function() {
+
+            $("button").click(function() {
+                //alert("has pulsado");
+
+                $("body").toggleClass("noche");
+
+                if ($("button").html() == 'Noche') {
+
+
+
+                    $("button").html('Dia');
+                } else {
+
+
+                    $("button").html('Noche');
+
+                }
+
+
+            });
+
+            $("figcaption", this).click(function() {
+
+
+
+                $("img").slideToggle("slow");
+
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
