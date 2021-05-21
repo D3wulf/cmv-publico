@@ -35,15 +35,9 @@ a {
     font-size: 1.1em;
 }
 
-.lado {
-    background-color: rgb(55, 146, 146, 0.5);
-    grid-column: 1 / span 1;
-    grid-row: 3 / span 1;
-}
-
 .contenido {
     background-color: rgb(55, 146, 146, 0.5);
-    grid-column: 2 / span 3;
+    grid-column: 1 / span 4;
     grid-row: 3 / span 1;
     overflow: scroll;
     padding: 10px;
