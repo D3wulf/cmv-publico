@@ -26,13 +26,53 @@ a {
 
 .migas {
     background-color: rgb(55, 146, 146, 0.5);
-    ;
     grid-column: 1 / span 4;
     grid-row: 2 / span 1;
     padding: 10px;
     font-style: italic;
     color: black;
     font-size: 1.1em;
+}
+
+.topbar {
+    background-color: rgb(55, 146, 146, 0.5);
+    grid-column: 1 / span 4;
+    grid-row: 2 / span 1;
+    text-align: center;
+    border-radius: 5px;
+    position: sticky;
+}
+
+.topbar ul {
+    list-style-type: none;
+    padding: 4px;
+}
+
+.topbar li {
+    float: left;
+    width: 23%;
+    background-color: #3db0d0;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 20px;
+    height: 70px;
+}
+
+.topbar li a {
+    height: 30px;
+    display: block;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 1px 1px 1px 1px;
+    margin-top: 21px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3em;
+}
+
+.topbar li:hover {
+    background-color: rgb(2, 110, 250);
 }
 
 .contenido {
@@ -42,12 +82,20 @@ a {
     overflow: scroll;
     padding: 10px;
     display: inline-flex;
+    margin-top: 40px;
 }
 
-.pie {
+.footer {
     background-color: rgb(55, 146, 146, 0.5);
     grid-column: 1 / span 4;
     grid-row: 4 / span 1;
+    margin: 20px;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
 }
 
 figure {
@@ -88,6 +136,9 @@ figcaption,
         width: 100%;
         display: block;
     }
+    .topbar li {
+        width: 20%;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -101,6 +152,9 @@ figcaption,
     }
     .lado {
         width: 0%;
+    }
+    .topbar li {
+        width: 20%;
     }
 }
 
