@@ -57,6 +57,8 @@ fecha: Marzo 2021
         <div class="migas"><a href="../index.html">Index</a>/<a href="#">Grid de fotos</a> <button value="noche" id="boton">Noche</button></div>
         <div class="lado"></div>
         <div class="contenido">
+
+
             <figure>
                 <img src="../assets/images/dog1.jpg" alt="Imagen de un carlino">
                 <figcaption>Fig.1 - Carlino haciendo deporte</figcaption>
@@ -70,6 +72,9 @@ fecha: Marzo 2021
                 <img src="../assets/images/dog3.jpg" alt="Imagen de un carlino">
                 <figcaption>Fig.3 - Carlino comestible</figcaption>
             </figure>
+
+
+
 
 
 
@@ -101,11 +106,20 @@ fecha: Marzo 2021
 
             });
 
-            $("figcaption", this).click(function() {
+            $("img").click(function() {
 
 
 
-                $("img").slideToggle("slow");
+                $(this).slideToggle("slow");
+
+
+            });
+            $("figcaption").click(function() {
+
+
+
+                $("img").show("slow");
+
 
             });
         });
