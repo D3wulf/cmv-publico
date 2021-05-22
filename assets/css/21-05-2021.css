@@ -171,6 +171,7 @@ figcaption p {
 @media only screen and (max-width: 768px) {
     figure {
         width: 100%;
+        margin-left: 0;
     }
     img {
         width: 80%;
@@ -181,6 +182,9 @@ figcaption p {
     }
     .topbar li {
         width: 20%;
+    }
+    figcaption {
+        margin: auto;
     }
 }
 
@@ -202,7 +206,47 @@ figcaption p {
     .topbar li {
         width: 20%;
     }
+    figcaption {
+        margin: auto;
+        bottom: 54px;
+    }
 }
+
+@media only screen and (max-width: 1400px) {
+    img {
+        width: 90%;
+        height: 400px;
+    }
+    .contenedor {
+        width: 100%;
+        display: block;
+    }
+    .topbar li {
+        width: 20%;
+    }
+    figure {
+        width: 100%;
+    }
+    figcaption {
+        width: 90%;
+    }
+    .parrafo {
+        display: flow-root;
+    }
+}
+
+
+/* @media only screen and (min-width: 1401px) {
+    figure {
+        width: 27%;
+    }
+    figcaption {
+        width: 100%;
+    }
+    .parrafo {
+        display: block;
+    }
+} */
 
 #boton {
     float: right;
