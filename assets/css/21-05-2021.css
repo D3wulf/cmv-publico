@@ -80,8 +80,8 @@ a {
     grid-column: 1 / span 4;
     grid-row: 3 / span 1;
     overflow: scroll;
-    padding: 10px;
-    display: inline-flex;
+    padding: 20px;
+    display: inline-block;
     margin-top: 40px;
 }
 
@@ -99,7 +99,11 @@ a {
 }
 
 figure {
-    margin: 5px;
+    /* margin: 30px 10px 20px 20px; */
+    float: left;
+    width: 29%;
+    z-index: 999;
+    margin-left: 60px;
 }
 
 img {
@@ -123,12 +127,51 @@ figcaption,
     margin: 10px 0px;
 }
 
+figcaption {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    position: relative;
+    bottom: 64px;
+    background-color: rgba(218, 190, 46, 0.5);
+    text-align: center;
+    height: 50px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+figcaption p {
+    margin: 0;
+    position: relative;
+    top: 14px;
+}
+
 .titulo {
     position: relative;
     top: 20px;
 }
 
+.parrafo {
+    margin: 20px;
+    background-color: #dabe2e;
+    font-weight: bold;
+    box-shadow: 3px 2px 5px 4px dimgrey;
+    padding: 4px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.parrafo h3::first-letter {
+    font-size: 40px;
+}
+
+.parrafo p {
+    padding-left: 7px;
+}
+
 @media only screen and (max-width: 768px) {
+    figure {
+        width: 100%;
+    }
     img {
         width: 80%;
     }
@@ -142,6 +185,9 @@ figcaption,
 }
 
 @media only screen and (max-width: 1024px) {
+    figure {
+        width: 100%;
+    }
     img {
         width: 80%;
     }
