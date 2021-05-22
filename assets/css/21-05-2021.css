@@ -168,6 +168,24 @@ figcaption p {
     padding-left: 7px;
 }
 
+
+/* moviles */
+
+@media only screen and (max-width: 400px) {
+    .topbar li {
+        width: 40%;
+    }
+    .contenido {
+        margin-top: 100px;
+    }
+    .footer {
+        width: 70%;
+    }
+    .parrafo {
+        margin: 0;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     figure {
         width: 100%;
