@@ -171,7 +171,7 @@ figcaption p {
 
 /* moviles */
 
-@media only screen and (max-width: 400px) {
+@media (max-width: 400px) {
     .topbar li {
         width: 40%;
     }
