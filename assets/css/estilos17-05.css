@@ -44,6 +44,7 @@ header {
 .sidebar a {
     color: white;
     text-decoration: none;
+    display: grid;
 }
 
 .sidebar p:hover {

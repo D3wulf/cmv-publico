@@ -168,6 +168,10 @@ figcaption p {
     padding-left: 7px;
 }
 
+button {
+    background-color: #dabe2e;
+}
+
 
 /* moviles */
 
@@ -268,6 +272,13 @@ figcaption p {
 
 #boton {
     float: right;
+    width: 90px;
+    height: 30px;
+    position: relative;
+    right: 20em;
+    top: 4em;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 .noche {
