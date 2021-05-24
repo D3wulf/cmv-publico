@@ -1,7 +1,14 @@
+// Variables
+
+@fondoGeneral:rgb(55, 146, 146, 0.5);
+@colorCaption:rgba(218, 190, 46);
+
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 a {
@@ -18,20 +25,10 @@ a {
 }
 
 .encabezado {
-    background-color: rgb(55, 146, 146, 0.5);
+    background-color: @fondoGeneral;
     grid-column: 1 / span 4;
     grid-row: 1 / span 1;
     text-align: center;
-}
-
-.migas {
-    background-color: rgb(55, 146, 146, 0.5);
-    grid-column: 1 / span 4;
-    grid-row: 2 / span 1;
-    padding: 10px;
-    font-style: italic;
-    color: black;
-    font-size: 1.1em;
 }
 
 .topbar {
@@ -40,42 +37,40 @@ a {
     text-align: center;
     border-radius: 5px;
     position: sticky;
-}
+    
+    ul {
+        list-style-type: none;
+        padding: 4px;
 
-.topbar ul {
-    list-style-type: none;
-    padding: 4px;
-}
+        li {
+            float: left;
+            width: 23%;
+            background-color: @fondoGeneral;
+            border-radius: 5px;
+            border: 1px solid black;
+            margin-left: 20px;
+            height: 40px;
 
-.topbar li {
-    float: left;
-    width: 23%;
-    background-color: #3db0d0;
-    border-radius: 5px;
-    border: 1px solid black;
-    margin-left: 20px;
-    height: 40px;
-}
+            :hover{
+                background-color: @colorCaption;
+            }
 
-.topbar li a {
-    height: 30px;
-    display: block;
-    border-radius: 5px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    padding: 1px 1px 1px 1px;
-    margin-top: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.3em;
-}
+            a {
+                height: 38px;
+                display: block;
+                color: black;
+                font-weight: bold;
+                font-size: 1.3em;
+                padding: 7px;
+                
 
-.topbar li:hover {
-    background-color: rgb(2, 110, 250);
+            }
+        }
+    }
 }
 
 .contenido {
-    background-color: rgb(55, 146, 146, 0.5);
+    background-color: @fondoGeneral;
     grid-column: 1 / span 4;
     grid-row: 3 / span 1;
     overflow: scroll;
@@ -84,7 +79,7 @@ a {
 }
 
 .footer {
-    background-color: rgb(55, 146, 146, 0.5);
+    background-color: @fondoGeneral;
     grid-column: 1 / span 4;
     grid-row: 4 / span 1;
     margin: 20px;
@@ -95,7 +90,6 @@ a {
     width: 30%;
     margin: 0 auto;
 }
-
 figure {
     /* margin: 30px 10px 20px 20px; */
     float: left;
@@ -108,40 +102,41 @@ img {
     width: 100%;
     max-height: 333px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(228, 157, 6, 0.8);
-}
+    box-shadow: 0 0 10px @colorCaption;
 
-img:hover {
-    border: 2px solid black;
-    filter: grayscale(80%);
-}
-
-figcaption,
-.img-footer {
-    font-style: italic;
-    color: black;
-    font-size: 1.1em;
-    text-align: center;
-    margin: 10px 0px;
+    :hover {
+        border: 2px solid black;
+        filter: grayscale(80%);
+    }
 }
 
 figcaption {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     position: relative;
-    bottom: 64px;
-    background-color: rgba(218, 190, 46, 0.5);
+    bottom: 53px;
+    background-color:@colorCaption;
+    opacity: 0.8;
     text-align: center;
     height: 50px;
     border-radius: 5px;
     width: 100%;
+
+    p {
+        margin: 0;
+        position: relative;
+        top: 14px;
+    }
+
+    .img-footer {
+        font-style: italic;
+        color: black;
+        font-size: 1.1em;
+        text-align: center;
+        margin: 10px 0px;
+    }
 }
 
-figcaption p {
-    margin: 0;
-    position: relative;
-    top: 14px;
-}
 
 .titulo {
     position: relative;
@@ -150,26 +145,44 @@ figcaption p {
 
 .parrafo {
     margin: 20px;
-    background-color: #dabe2e;
+    background-color: @colorCaption;
     font-weight: bold;
     box-shadow: 3px 2px 5px 4px dimgrey;
     padding: 4px;
     border-radius: 5px;
     display: inline-block;
-}
 
-.parrafo h3::first-letter {
-    font-size: 40px;
-}
+    h3::first-letter {
+        font-size: 40px;
+    }
 
-.parrafo p {
-    padding-left: 7px;
+    p {
+        padding-left: 7px;
+    }
+    
+    
+
 }
 
 button {
-    background-color: #dabe2e;
+    background-color: @colorCaption;
 }
 
+#boton {
+    float: right;
+    width: 90px;
+    height: 30px;
+    position: relative;
+    right: 20em;
+    top: 4em;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.noche {
+    color: white;
+    background-color: dimgrey;
+}
 
 /* moviles */
 
@@ -256,30 +269,5 @@ button {
 }
 
 
-/* @media only screen and (min-width: 1401px) {
-    figure {
-        width: 27%;
-    }
-    figcaption {
-        width: 100%;
-    }
-    .parrafo {
-        display: block;
-    }
-} */
 
-#boton {
-    float: right;
-    width: 90px;
-    height: 30px;
-    position: relative;
-    right: 20em;
-    top: 4em;
-    border-radius: 10px;
-    font-weight: bold;
-}
 
-.noche {
-    color: white;
-    background-color: dimgrey;
-}
