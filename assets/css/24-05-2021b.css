@@ -52,6 +52,9 @@ body {
   padding: 5px;
   text-decoration: none;
 }
+.carousel-item img {
+  max-width: 100%;
+}
 .footer {
   background-color: #9ea3a3;
   grid-column: 1 / span 4;
