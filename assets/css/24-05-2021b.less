@@ -18,9 +18,7 @@ body{
     background-color: @fondoGeneral;
 }
 
-a {
-    text-decoration: none;
-}
+
 
 .marco {
     
@@ -69,22 +67,15 @@ a {
                 color: black;
                 font-weight: bold;
                 font-size: 1.3em;
-                padding: 7px;
-                
+                padding: 5px;
+                text-decoration: none;
 
             }
         }
     }
 }
 
-.contenido {
-    
-    grid-column: 1 / span 4;
-    grid-row: 3 / span 1;
-    overflow: scroll;
-    padding: 20px;
-    display: inline-block;
-}
+
 
 .footer {
     background-color: @fondoGeneral;
@@ -97,52 +88,6 @@ a {
     text-align: center;
     width: 30%;
     margin: 0 auto;
-}
-figure {
-    /* margin: 30px 10px 20px 20px; */
-    float: left;
-    width: 29%;
-    z-index: 999;
-    margin-left: 60px;
-}
-
-img {
-    width: 100%;
-    max-height: 333px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px @colorCaption;
-
-    :hover {
-        border: 2px solid black;
-        filter: grayscale(80%);
-    }
-}
-
-figcaption {
-    
-    font-weight: bold;
-    position: relative;
-    bottom: 53px;
-    background-color:@colorCaption;
-    opacity: 0.8;
-    text-align: center;
-    height: 50px;
-    border-radius: 5px;
-    width: 100%;
-
-    p {
-        margin: 0;
-        position: relative;
-        top: 14px;
-    }
-
-    .img-footer {
-        font-style: italic;
-        color: black;
-        font-size: 1.1em;
-        text-align: center;
-        margin: 10px 0px;
-    }
 }
 
 
@@ -180,7 +125,7 @@ figcaption {
     height: 30px;
     position: relative;
     right: 20em;
-    top: 4em;
+    
     border-radius: 10px;
     font-weight: bold;
     background-color: @colorCaption;
