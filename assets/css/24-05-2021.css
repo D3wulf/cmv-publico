@@ -1,3 +1,7 @@
+.formatoFuente {
+  text-align: center;
+  font-weight: bold;
+}
 * {
   box-sizing: border-box;
   padding: 0;
@@ -66,12 +70,12 @@ a {
   grid-column: 1 / span 4;
   grid-row: 4 / span 1;
   margin: 20px;
-  font-weight: bold;
   padding: 4px;
   border-radius: 5px;
-  text-align: center;
   width: 30%;
   margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
 }
 figure {
   /* margin: 30px 10px 20px 20px; */
@@ -91,15 +95,15 @@ img :hover {
   filter: grayscale(80%);
 }
 figcaption {
-  font-weight: bold;
   position: relative;
   bottom: 53px;
   background-color: rgba(218, 190, 46);
   opacity: 0.8;
-  text-align: center;
   height: 50px;
   border-radius: 5px;
   width: 100%;
+  text-align: center;
+  font-weight: bold;
 }
 figcaption p {
   margin: 0;

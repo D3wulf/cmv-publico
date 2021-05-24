@@ -4,6 +4,12 @@
 @colorCaption:rgba(218, 190, 46);
 @colornoche:rgba(27, 202, 202, 0.5);
 @fuente:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.formatoFuente{
+
+    text-align: center;
+    font-weight: bold;
+}
+
 
 * {
     box-sizing: border-box;
@@ -91,12 +97,11 @@ a {
     grid-column: 1 / span 4;
     grid-row: 4 / span 1;
     margin: 20px;
-    font-weight: bold;
     padding: 4px;
     border-radius: 5px;
-    text-align: center;
     width: 30%;
     margin: 0 auto;
+    .formatoFuente;
 }
 figure {
     /* margin: 30px 10px 20px 20px; */
@@ -120,15 +125,14 @@ img {
 
 figcaption {
     
-    font-weight: bold;
     position: relative;
     bottom: 53px;
     background-color:@colorCaption;
     opacity: 0.8;
-    text-align: center;
     height: 50px;
     border-radius: 5px;
     width: 100%;
+    .formatoFuente;
 
     p {
         margin: 0;
