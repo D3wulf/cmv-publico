@@ -4,6 +4,9 @@
   margin: 0;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+body {
+  background-color: #9ea3a3;
+}
 a {
   text-decoration: none;
 }
@@ -16,7 +19,6 @@ a {
   height: 100vh;
 }
 .encabezado {
-  background-color: #379292;
   grid-column: 1 / span 4;
   grid-row: 1 / span 1;
   text-align: center;
@@ -35,14 +37,14 @@ a {
 .topbar ul li {
   float: left;
   width: 23%;
-  background-color: #379292;
+  background-color: rgba(218, 190, 46);
   border-radius: 5px;
   border: 1px solid black;
   margin-left: 20px;
   height: 40px;
 }
 .topbar ul li :hover {
-  background-color: rgba(218, 190, 46);
+  box-shadow: 1px 1px 15px #27b3c5;
 }
 .topbar ul li a {
   height: 38px;
@@ -53,7 +55,6 @@ a {
   padding: 7px;
 }
 .contenido {
-  background-color: #379292;
   grid-column: 1 / span 4;
   grid-row: 3 / span 1;
   overflow: scroll;
@@ -61,7 +62,7 @@ a {
   display: inline-block;
 }
 .footer {
-  background-color: #379292;
+  background-color: #9ea3a3;
   grid-column: 1 / span 4;
   grid-row: 4 / span 1;
   margin: 20px;
@@ -90,7 +91,6 @@ img :hover {
   filter: grayscale(80%);
 }
 figcaption {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
   position: relative;
   bottom: 53px;

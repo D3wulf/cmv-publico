@@ -1,14 +1,21 @@
 // Variables
 
-@fondoGeneral:rgb(55, 146, 146, 0.5);
+@fondoGeneral:rgb(158, 163, 163, 0.5);
 @colorCaption:rgba(218, 190, 46);
-
+@colornoche:rgba(27, 202, 202, 0.5);
+@fuente:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: @fuente;
+   
+    
+}
+
+body{
+    background-color: @fondoGeneral;
 }
 
 a {
@@ -16,6 +23,7 @@ a {
 }
 
 .marco {
+    
     display: grid;
     grid-template-columns: 250px repeat(3, 1fr);
     grid-template-rows: 150px 40px auto 40px;
@@ -25,7 +33,7 @@ a {
 }
 
 .encabezado {
-    background-color: @fondoGeneral;
+    
     grid-column: 1 / span 4;
     grid-row: 1 / span 1;
     text-align: center;
@@ -45,14 +53,14 @@ a {
         li {
             float: left;
             width: 23%;
-            background-color: @fondoGeneral;
+            background-color: @colorCaption;
             border-radius: 5px;
             border: 1px solid black;
             margin-left: 20px;
             height: 40px;
 
             :hover{
-                background-color: @colorCaption;
+                box-shadow: 1px 1px 15px rgb(39, 179, 197);
             }
 
             a {
@@ -70,7 +78,7 @@ a {
 }
 
 .contenido {
-    background-color: @fondoGeneral;
+    
     grid-column: 1 / span 4;
     grid-row: 3 / span 1;
     overflow: scroll;
@@ -111,7 +119,7 @@ img {
 }
 
 figcaption {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
     font-weight: bold;
     position: relative;
     bottom: 53px;
@@ -182,6 +190,7 @@ button {
 .noche {
     color: white;
     background-color: dimgrey;
+    
 }
 
 /* moviles */
