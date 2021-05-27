@@ -47,9 +47,9 @@ function opcionesPant(){
 
     
 
-        let anchoPant = "El ancho de la ventana es :" + window.innerWidth;
+        let anchoPant = "El ancho de la ventana es :" + window.innerWidth + "px";
     
-        let altoPant = "El alto de la ventana es :" + window.innerHeight;
+        let altoPant = "El alto de la ventana es :" + window.innerHeight + "px";
     
         let miUri = "El archivo con el que estas trabajando es: " + document.baseURI;
     
