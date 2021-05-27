@@ -15,3 +15,19 @@ function ejercicioIf() {
 
     return document.write(texto);
 }
+
+function ejercicioIf1(){
+
+
+
+    let num1, num2;
+
+    num1= parseInt(prompt(" Elija un numero "));
+
+    num2= parseInt(prompt(" Elija otro numero "));
+    
+
+    
+
+
+}
