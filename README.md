@@ -1,7 +1,7 @@
 # cmv-publico
 Trabajos públicos del curso
 
-# para verlo
+# Para verlo
 
 https://d3wulf.github.io/cmv-publico/
 
