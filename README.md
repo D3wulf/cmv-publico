@@ -1,4 +1,4 @@
-# cmv-publico
+# Cmv-público
 Trabajos públicos del curso
 
 # Para verlo
