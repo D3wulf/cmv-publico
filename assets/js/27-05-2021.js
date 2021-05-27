@@ -27,11 +27,16 @@
 // EJERCICIO DOM URL //
 
 function miFuncion() {
-    let x = "El archivo con el que estas trabajando es: " + document.baseURI;
 
-    let y = "Altura disponible: " + screen.availHeight + "px";
+    let anchoPant = "El ancho de la ventana es :" + window.innerWidth;
 
-    let z = "Ancho disponible: " + screen.availWidth + "px";
+    let altoPant = "El alto de la ventana es :" + window.innerHeight;
 
-    document.getElementById("demo").innerHTML = x + "<br>" + y + "<br>" + z;
+    let miUri = "El archivo con el que estas trabajando es: " + document.baseURI;
+
+    let alturaDispo = "Altura disponible: " + screen.availHeight + "px";
+
+    let anchoDispo = "Ancho disponible: " + screen.availWidth + "px";
+
+    document.getElementById("demo").innerHTML = miUri + "<br>" + alturaDispo + "<br>" + anchoDispo + "<br>" + anchoPant + "<br>" + altoPant;
 }
