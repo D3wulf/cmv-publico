@@ -89,13 +89,23 @@ function operaciones2(num1, num2) {
 
 let flecha = (num1, num2) => document.write(num1 + num2);
 
-function operacionesPromp(num1, num2) {
+function operacionesPrompt() {
+
+
 
     num1 = parseInt(prompt(" Numero 1 a sumar "));
 
     num2 = parseInt(prompt(" Numero 2 a sumar"));
 
-    $("#sumaJquery").text(num1 + num2);
+    if (!isNaN(num1) && !isNaN(num2)) {
+
+        $("#sumaPrompt").text(num1 + num2);
+    } else {
+
+        $("#sumaPrompt").text("Los datos introducidos no son correctos");
+    }
+
+
 
 
 }
