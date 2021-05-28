@@ -177,6 +177,11 @@ function cargaPagina() {
 
     inicioColor();
     mostrarUserActivo();
+
+    $("#1").addClass("active");
+    $(".otraPagina").hide();
+
+
 }
 
 function salir() {
@@ -184,5 +189,50 @@ function salir() {
     sessionStorage.removeItem("usuario");
     location.reload();
 
+
+}
+
+
+/// Cambio de clase para ejercicio del top menu
+
+function cambioClase() {
+
+    // $("#1").removeClass("active");
+
+
+
+    if ($('#1').hasClass('active')) {
+
+        $("#1").removeClass("active");
+        $('#2').addClass("active");
+        $(".home").hide();
+        $(".otraPagina").show();
+
+    } else {
+
+        $("#2").removeClass("active");
+        $('#1').addClass("active");
+        $(".home").show();
+        $(".otraPagina").hide();
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //$("#1").removeClass("active");
 
 }

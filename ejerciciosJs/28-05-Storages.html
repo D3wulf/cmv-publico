@@ -6,11 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>28-05-2021</title>
-    <style>
-        body {
-            background-color: darkolivegreen;
-        }
-    </style>
+    <link rel="stylesheet" href="./28-05-Storages.css">
     <script src="./ejercicios.js"></script>
     <!-- Jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -18,14 +14,30 @@
 
 <body onload="cargaPagina()">
 
-    <header> Prácticas WebStorage</header>
-    <main>
+    <div class="topnav">
+        <a class="" href="#home" id="1" onclick="cambioClase()">Cambio de Color</a>
+        <a class="" href="#news" id="2" onclick="cambioClase()">Login</a>
 
-        <h3>Pulse en el color para cambiar el fondo. </h3>
-        <input type="color" value="#cc9900" name="" id="color"><br>
-        <button type="button" value="" onclick="cambioFondo()" id="">Cambiar</button>
-        <h3 id="local"></h3>
-        <hr>
+    </div>
+
+
+    <div class="home">
+        <header> Prácticas WebStorage</header>
+        <main>
+
+            <h3>Pulse en el color para cambiar el fondo. </h3>
+            <input type="color" value="#cc9900" name="" id="color"><br>
+            <button type="button" value="" onclick="cambioFondo()" id="">Cambiar</button>
+            <h3 id="local"></h3>
+            <hr>
+
+        </main><br>
+
+        <footer>2021 Miguel A. Sánchez</footer>
+    </div>
+
+    <div class="otraPagina">
+
 
         <div id="areaForm">
             <h3>Formulario de ingreso</h3>
@@ -45,11 +57,7 @@
 
 
 
-
-
-    </main><br>
-
-    <footer>2021 Miguel A. Sánchez</footer>
+    </div>
 
 
 
