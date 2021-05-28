@@ -109,3 +109,80 @@ function operacionesPrompt() {
 
 
 }
+
+function cambioFondo() {
+
+    let color = $("#color").val();
+
+    localStorage.setItem("color", color);
+    //sessionStorage.setItem("color", color);
+
+
+    $("body").css("background-color", color);
+
+
+    $("#local").text(`El color elegido es ${localStorage.getItem("color")}`);
+}
+
+function inicioColor() {
+
+    if (localStorage.getItem("color")) {
+        $("body").css("background-color", localStorage.getItem("color"));
+    }
+}
+
+function ingresar() {
+
+    let nombre = $("#nombre").val();
+
+    sessionStorage.setItem("usuario", nombre);
+
+    $("#local2").text(nombre);
+
+    $("#botonDesconectar").show();
+
+
+
+}
+
+function mostrarUserActivo() {
+
+
+    if (sessionStorage.getItem("usuario")) {
+
+
+        $("#areaForm").hide();
+        $("#local2").text(sessionStorage.getItem("usuario"));
+
+
+
+    } else {
+
+        $("#areaForm").show();
+        $("#botonDesconectar").hide();
+
+
+    }
+
+
+
+
+
+
+
+}
+
+
+function cargaPagina() {
+
+    inicioColor();
+    mostrarUserActivo();
+}
+
+function salir() {
+
+    sessionStorage.removeItem("usuario");
+    location.reload();
+
+
+}

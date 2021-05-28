@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>28-05-2021</title>
+    <style>
+        body {
+            background-color: darkolivegreen;
+        }
+    </style>
+    <script src="./ejercicios.js"></script>
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body onload="cargaPagina()">
+
+    <header> Prácticas WebStorage</header>
+    <main>
+
+        <h3>Pulse en el color para cambiar el fondo. </h3>
+        <input type="color" value="#cc9900" name="" id="color"><br>
+        <button type="button" value="" onclick="cambioFondo()" id="">Cambiar</button>
+        <h3 id="local"></h3>
+        <hr>
+
+        <div id="areaForm">
+            <h3>Formulario de ingreso</h3>
+
+            <label for="fname">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre..." maxlength="15"><br>
+            <label for="lname">Apellido:</label><br>
+            <input type="text" id="apellido" name="apellido" placeholder="Escriba su apellido..." maxlength="25"><br>
+            <button type="button" onclick="ingresar()">Ingresar</button>
+
+        </div>
+
+        <h3>Bienvenido <span id="local2"></span></h3>
+
+        <button type="button" id="botonDesconectar" onclick="salir()">Desconectar</button><br>
+
+
+
+
+
+
+    </main><br>
+
+    <footer>2021 Miguel A. Sánchez</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
