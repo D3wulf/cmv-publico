@@ -1,0 +1,22 @@
+<registrados>
+    <usuario nro="1">
+        <nombre>Paco</nombre>
+        <clave>clave1</clave>
+    </usuario>
+    <usuario nro="2">
+        <nombre>Manuel</nombre>
+        <clave>clave2</clave>
+    </usuario>
+    <usuario nro="3">
+        <nombre>Carlos</nombre>
+        <clave>clave3</clave>
+    </usuario>
+    <usuario nro="4">
+        <nombre>Juan</nombre>
+        <clave>clave4</clave>
+    </usuario>
+    <usuario nro="5">
+        <nombre>Felipe</nombre>
+        <clave>clave5</clave>
+    </usuario>
+</registrados>
