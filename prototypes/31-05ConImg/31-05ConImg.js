@@ -17,26 +17,29 @@ function leerXML() {
 function cargarArray(xml) {
     let Nom;
     let Foto;
+    let Pie;
     let coche = [];
     let xmlDoc = xml.responseXML;
     let tabla = "";
     let x = xmlDoc.getElementsByTagName("coche");
 
-    tabla += "<table><tr><th>Coche</th><th>Foto</th></tr>";
+    //tabla += "<table><tr><th>Coche</th><th>Foto</th></tr>";
 
     for (let i = 0; i < x.length; i++) {
         // leo las etiquetas que me interesan del objeto
         Nom = x[i].getElementsByTagName("nombre")[0].childNodes[0].nodeValue;
         Foto = x[i].getElementsByTagName("foto")[0].childNodes[0].nodeValue;
+        Pie = x[i].getElementsByTagName("pie")[0].childNodes[0].nodeValue;
         // actualizo la tabla de visualización
-        tabla += "<tr><td>" + Nom + "</td><td>" + Foto + "</td></tr>";
+        tabla += "<h1>" + Nom + "</h1><br>"
+        tabla += Foto + "<br>" + Pie + " <br>";
         // actualizo el array bidimensional con los usuarios coches
-        coche = [Nom, Foto];
+        coche = [Nom, Foto, Pie];
         coches.push(coche);
 
     }
 
-    tabla += "</table>"
+    tabla += ""
         //document.getElementById("contenidoXML").innerHTML = tabla;
 
 
@@ -52,17 +55,28 @@ function mostrar() {
         (coche) => {
             coche.forEach(
                 (datos) => {
-                    tabla = "<table><tr><th>Coche</th><th>Foto</th></tr>";
+
+
+
+                    //tabla += "<div >";
+
                     for (let i = 0; i < coches.length; i++) {
                         // leo las etiquetas que me interesan del objeto
                         Nom = coches[i][0];
                         Foto = coches[i][1];
+                        Pie = coches[i][2];
                         // actualizo la tabla de visualización
-                        tabla += "<tr><td>" + Nom + "</td><td>" + `<img src="${Foto}" alt="">` + "</td></tr>";
+                        tabla += `<h3>${Nom}</h3>`;
+                        tabla += `<img src="${Foto}" class='img-fluid' alt="">`;
+                        tabla += `<p class=''>${Pie}</p>`;
+                        //tabla += "<a href='#' class='btn btn-primary'>Ir</a>"
+
+
                         // actualizo el array bidimensional con los usuarios coches
 
                     }
-                    tabla += "</table>"
+
+                    //tabla += "</div>";
                 });
         });
     document.getElementById("contenidoXML").innerHTML = tabla;

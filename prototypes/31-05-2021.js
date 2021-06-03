@@ -144,14 +144,6 @@ function mostrarClave() {
 
     document.getElementById("contenido4").innerHTML = clave;
 
-
-    // obtenemos el usuario del campo input y
-    // validamos que exista en el array
-    // si no, mostramos un alert y no hacemos nada
-    // si existe actualizamos el elemento con id clavebuscada
-
-    // sintaxis jQuery: nombre = $("#nom").val();
-
 }
 
 
