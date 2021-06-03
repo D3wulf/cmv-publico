@@ -35,7 +35,7 @@
 .flip-box-back {
     position: absolute;
     width: 100%;
-    height: 600px;
+    height: 598px;
     -webkit-backface-visibility: hidden;
     /* Safari */
     backface-visibility: hidden;
@@ -59,3 +59,5 @@
 img {
     max-height: 500px;
 }
+
+#contenidoXML {}

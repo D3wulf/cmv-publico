@@ -36,88 +36,88 @@
         <pie>Coche6</pie>
         <detalle>Un coche en local con imagen de PixaBay</detalle>
     </coche>
-    <!-- <coche>
-        <nombre>Multipla Fiat</nombre>
-        <foto>https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/855/public/media/image/2020/05/siete-coches-feos-historiafiat-multipla-frontal-1945937.jpg?itok=uDxAzmki</foto>
-        <pie>Multipla Fiat</pie>
-        <detalle></detalle>
+    <coche>
+        <nombre>Coche</nombre>
+        <foto>./images/coche2.jpg</foto>
+        <pie>Coche</pie>
+        <detalle>Un coche en local con imagen de PixaBay</detalle>
     </coche>
     <coche>
-        <nombre>Pontiac Aztec</nombre>
-        <foto>https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/855/public/media/image/2020/05/siete-coches-feos-historiapontiac-aztek-trasera-1945955.jpg?itok=Pci0vxgP</foto>
-        <pie>Pontiac Aztec</pie>
-        <detalle></detalle>
+        <nombre>Coche</nombre>
+        <foto>./images/coche3.png</foto>
+        <pie>Coche</pie>
+        <detalle>Un coche en local con imagen de PixaBay</detalle>
     </coche>
     <coche>
-        <nombre>Tata Nano</nombre>
-        <foto>https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/855/public/media/image/2020/05/siete-coches-feos-historiatata-nano-frontal-1945963.jpg?itok=lHY57Bam</foto>
-        <pie>Tata Nano</pie>
-        <detalle></detalle>
+        <nombre>Coche</nombre>
+        <foto>./images/coche4.jpg</foto>
+        <pie>BWM</pie>
+        <detalle>Un coche en local con imagen de PixaBay</detalle>
     </coche>
     <coche>
-        <nombre>Relian Robin</nombre>
-        <foto>https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/855/public/media/image/2020/05/siete-coches-feos-historiareliant-robin-1945957.jpg?itok=VKTfxQ9G</foto>
+        <nombre>Coche</nombre>
+        <foto>./images/coche5.png</foto>
         <pie>Relian Robin</pie>
-        <detalle></detalle>
+        <detalle>Un coche en local con imagen de PixaBay</detalle>
     </coche>
     <coche>
-        <nombre>SsanYong Rodius</nombre>
-        <foto>https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/855/public/media/image/2020/05/siete-coches-feos-historiassangyong-rodius-trasera-1945961.jpg?itok=ejjCqInn</foto>
-        <pie>SsanYong Rodius</pie>
-        <detalle></detalle>
+        <nombre>Coche</nombre>
+        <foto>./images/coche6.jpg</foto>
+        <pie>Silverstone</pie>
+        <detalle>Un coche en local con imagen de PixaBay</detalle>
     </coche>
     <coche>
-        <nombre>Multipla Fiat</nombre>
-        <foto>https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/855/public/media/image/2020/05/siete-coches-feos-historiafiat-multipla-frontal-1945937.jpg?itok=uDxAzmki</foto>
-        <pie>Multipla Fiat</pie>
-        <detalle></detalle>
+        <nombre>Coche</nombre>
+        <foto>./images/coche7.jpg</foto>
+        <pie>Tartana</pie>
+        <detalle>Un coche en local con imagen de PixaBay</detalle>
     </coche>
     <coche>
-        <nombre>Pontiac Aztec</nombre>
-        <foto>https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/855/public/media/image/2020/05/siete-coches-feos-historiapontiac-aztek-trasera-1945955.jpg?itok=Pci0vxgP</foto>
-        <pie>Pontiac Aztec</pie>
-        <detalle></detalle>
+        <nombre>Aston</nombre>
+        <foto>./images/coche8.jpg</foto>
+        <pie>Aston Martin</pie>
+        <detalle>Un coche en local con imagen de PixaBay</detalle>
     </coche>
     <coche>
-        <nombre>Tata Nano</nombre>
-        <foto>https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/855/public/media/image/2020/05/siete-coches-feos-historiatata-nano-frontal-1945963.jpg?itok=lHY57Bam</foto>
-        <pie>Tata Nano</pie>
-        <detalle></detalle>
+        <nombre>Mercedes</nombre>
+        <foto>./images/coche9.jpg</foto>
+        <pie>Mercedes</pie>
+        <detalle>Un coche en local con imagen de PixaBay</detalle>
     </coche>
     <coche>
-        <nombre>Relian Robin</nombre>
-        <foto>https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/855/public/media/image/2020/05/siete-coches-feos-historiareliant-robin-1945957.jpg?itok=VKTfxQ9G</foto>
-        <pie>Relian Robin</pie>
-        <detalle></detalle>
+        <nombre>Emslichter</nombre>
+        <foto>./images/coche10.png</foto>
+        <pie>Emslichter</pie>
+        <detalle>Un coche en local con imagen de PixaBay</detalle>
     </coche>
     <coche>
-        <nombre>SsanYong Rodius</nombre>
-        <foto>https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/855/public/media/image/2020/05/siete-coches-feos-historiassangyong-rodius-trasera-1945961.jpg?itok=ejjCqInn</foto>
-        <pie>SsanYong Rodius</pie>
-        <detalle></detalle>
+        <nombre>Coche</nombre>
+        <foto>./images/coche11.jpg</foto>
+        <pie>Coche</pie>
+        <detalle>Un coche en local con imagen de PixaBay</detalle>
     </coche>
     <coche>
-        <nombre>Multipla Fiat</nombre>
-        <foto>https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/855/public/media/image/2020/05/siete-coches-feos-historiafiat-multipla-frontal-1945937.jpg?itok=uDxAzmki</foto>
-        <pie>Multipla Fiat</pie>
-        <detalle></detalle>
+        <nombre>Coche</nombre>
+        <foto>./images/coche12.jpg</foto>
+        <pie>Coche</pie>
+        <detalle>Un coche en local con imagen de PixaBay</detalle>
     </coche>
     <coche>
-        <nombre>Pontiac Aztec</nombre>
-        <foto>https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/855/public/media/image/2020/05/siete-coches-feos-historiapontiac-aztek-trasera-1945955.jpg?itok=Pci0vxgP</foto>
-        <pie>Pontiac Aztec</pie>
-        <detalle></detalle>
+        <nombre>Coche</nombre>
+        <foto>./images/coche13.jpg</foto>
+        <pie>Coche</pie>
+        <detalle>Un coche en local con imagen de PixaBay</detalle>
     </coche>
     <coche>
-        <nombre>Tata Nano</nombre>
-        <foto>https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/855/public/media/image/2020/05/siete-coches-feos-historiatata-nano-frontal-1945963.jpg?itok=lHY57Bam</foto>
-        <pie>Tata Nano</pie>
-        <detalle></detalle>
+        <nombre>Coche</nombre>
+        <foto>./images/coche14.jpg</foto>
+        <pie>Coche</pie>
+        <detalle>Un coche en local con imagen de PixaBay</detalle>
     </coche>
     <coche>
-        <nombre>Relian Robin</nombre>
-        <foto>https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/855/public/media/image/2020/05/siete-coches-feos-historiareliant-robin-1945957.jpg?itok=VKTfxQ9G</foto>
-        <pie>Relian Robin</pie>
-        <detalle></detalle>
-    </coche> -->
+        <nombre>Coche</nombre>
+        <foto>./images/coche15.jpg</foto>
+        <pie>Coche</pie>
+        <detalle>Un coche en local con imagen de PixaBay</detalle>
+    </coche>
 </coches>
