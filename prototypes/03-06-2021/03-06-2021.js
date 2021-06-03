@@ -119,3 +119,36 @@ function mostrarUrl() {
     document.getElementById("contenido4").innerHTML = url;
 
 }
+
+function mostrarCar() {
+
+
+
+    let tabla = "";
+
+
+
+    //tabla += "<div >";
+
+    for (let i = 0; i < coches.length; i++) {
+        // leo las etiquetas que me interesan del objeto
+        Nom = coches[i][0];
+        Foto = coches[i][1];
+
+
+        tabla += `<div class='carousel-item active'>`
+        tabla += `<img src="${Foto}" class='d-block w-100'>`
+        tabla += `</div>`
+
+
+
+
+
+    }
+
+    //tabla += "</div>";
+
+    document.getElementById("carrusel").innerHTML = tabla;
+
+
+}
