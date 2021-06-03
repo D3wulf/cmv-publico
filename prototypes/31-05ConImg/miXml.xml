@@ -1,33 +1,33 @@
 <coches>
     <coche nro="1">
-        <nombre>SsanYong Rodius</nombre>
+        <nombre>SsanYong</nombre>
         <foto>https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/855/public/media/image/2020/05/siete-coches-feos-historiassangyong-rodius-trasera-1945961.jpg?itok=ejjCqInn</foto>
         <pie>SsanYong Rodius</pie>
         <detalle></detalle>
     </coche>
     <coche nro="2">
-        <nombre>Multipla Fiat</nombre>
+        <nombre>Fiat</nombre>
         <foto>https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/855/public/media/image/2020/05/siete-coches-feos-historiafiat-multipla-frontal-1945937.jpg?itok=uDxAzmki</foto>
         <pie>Multipla Fiat</pie>
-        <detalle></detalle>
+        <detalle>Hola</detalle>
     </coche>
     <coche nro="3">
-        <nombre>Pontiac Aztec</nombre>
+        <nombre>Pontiac</nombre>
         <foto>https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/855/public/media/image/2020/05/siete-coches-feos-historiapontiac-aztek-trasera-1945955.jpg?itok=Pci0vxgP</foto>
         <pie>Pontiac Aztec</pie>
-        <detalle></detalle>
+        <detalle>Hola</detalle>
     </coche>
     <coche nro="4">
-        <nombre>Tata Nano</nombre>
+        <nombre>Tata</nombre>
         <foto>https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/855/public/media/image/2020/05/siete-coches-feos-historiatata-nano-frontal-1945963.jpg?itok=lHY57Bam</foto>
         <pie>Tata Nano</pie>
-        <detalle></detalle>
+        <detalle>Hola</detalle>
     </coche>
     <coche nro="5">
-        <nombre>Relian Robin</nombre>
+        <nombre>Relian</nombre>
         <foto>https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/855/public/media/image/2020/05/siete-coches-feos-historiareliant-robin-1945957.jpg?itok=VKTfxQ9G</foto>
         <pie>Relian Robin</pie>
-        <detalle></detalle>
+        <detalle>Hola</detalle>
     </coche>
     <!-- <coche>
         <nombre>SsanYong Rodius</nombre>
