@@ -18,7 +18,7 @@ function cargarArray(xml) {
     let Nom;
     let Foto;
     let Pie;
-    //let Detalle;
+    let Detalle;
     let coche = [];
     let xmlDoc = xml.responseXML;
     let tabla = "";
@@ -31,9 +31,9 @@ function cargarArray(xml) {
         Nom = x[i].getElementsByTagName("nombre")[0].childNodes[0].nodeValue;
         Foto = x[i].getElementsByTagName("foto")[0].childNodes[0].nodeValue;
         Pie = x[i].getElementsByTagName("pie")[0].childNodes[0].nodeValue;
-        //Detalle = x[i].getElementsByTagName("detalle")[0].childNodes[0].nodeValue;
+        Detalle = x[i].getElementsByTagName("detalle")[0].childNodes[0].nodeValue;
 
-        coche = [Nom, Foto, Pie];
+        coche = [Nom, Foto, Pie, Detalle];
         coches.push(coche);
 
     }
