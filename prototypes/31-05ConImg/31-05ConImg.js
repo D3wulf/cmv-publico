@@ -58,10 +58,17 @@ function mostrar() {
         Nom = coches[i][0];
         Foto = coches[i][1];
         Pie = coches[i][2];
+        Detalle = coches[i][3];
+
         // actualizo la tabla de visualización
+        tabla += `<div class='bg-secondary rounded'>`;
         tabla += `<h3>${Nom}</h3>`;
         tabla += `<img src="${Foto}" class='img-fluid' alt="">`;
         tabla += `<p class=''>${Pie}</p>`;
+        tabla += `<p class='w-100'>${Detalle}</p>`;
+        tabla += `</div>`;
+
+
         //tabla += "<a href='#' class='btn btn-primary'>Ir</a>"
 
 
@@ -80,6 +87,7 @@ let miCoche;
 function mostrarUrl() {
 
     miCoche = document.getElementById("coche").value;
+
 
     console.log(miCoche);
 
