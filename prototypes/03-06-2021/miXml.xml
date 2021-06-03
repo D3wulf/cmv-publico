@@ -30,13 +30,13 @@
         <pie>Relian Robin</pie>
         <detalle>Diossss, qué pereza de coche. Ya el nombre hace esperar lo peor… Jeremy Clarkson se subió a uno de estos modelos para Top Gear y se lo pasó pipa. Como suele hacer. Fabricado entre 1973 y 1981 (se retomó desde 1989 a 20002) su vida constó de tres generaciones a lo largo de sus 30 años de historia. Sí, como lo lees...</detalle>
     </coche>
-    <!-- <coche>
-        <nombre>SsanYong Rodius</nombre>
-        <foto>https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/855/public/media/image/2020/05/siete-coches-feos-historiassangyong-rodius-trasera-1945961.jpg?itok=ejjCqInn</foto>
-        <pie>SsanYong Rodius</pie>
-        <detalle></detalle>
-    </coche>
     <coche>
+        <nombre>Coche6</nombre>
+        <foto>./images/coche1.jpg</foto>
+        <pie>Coche6</pie>
+        <detalle>Un coche en local con imagen de PixaBay</detalle>
+    </coche>
+    <!-- <coche>
         <nombre>Multipla Fiat</nombre>
         <foto>https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/855/public/media/image/2020/05/siete-coches-feos-historiafiat-multipla-frontal-1945937.jpg?itok=uDxAzmki</foto>
         <pie>Multipla Fiat</pie>

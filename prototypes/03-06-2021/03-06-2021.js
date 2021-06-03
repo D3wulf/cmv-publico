@@ -61,12 +61,25 @@ function mostrar() {
         Detalle = coches[i][3];
 
         // actualizo la tabla de visualización
-        tabla += `<div class='bg-secondary bg-gradient rounded'>`;
-        tabla += `<h3>${Nom}</h3>`;
-        tabla += `<img src="${Foto}" class='img-fluid' alt="">`;
+        // tabla += `<div class='bg-secondary bg-gradient rounded'>`;
+        // tabla += `<h3>${Nom}</h3>`;
+        // tabla += `<img src="${Foto}" class='img-fluid' alt="">`;
+        // tabla += `<p class=''>${Pie}</p>`;
+        // tabla += `<p class='w-100'>${Detalle}</p>`;
+        // tabla += `</div>`;
+
+        tabla += `<div class='flip-box rounded'>`
+        tabla += `<div class='flip-box-inner'>`
+        tabla += `<div class='flip-box-front'>`
+        tabla += `<h3>${Nom}</h3>`
+        tabla += `<img src="${Foto}" alt="">`;
         tabla += `<p class=''>${Pie}</p>`;
-        tabla += `<p class='w-100'>${Detalle}</p>`;
-        tabla += `</div>`;
+        tabla += `</div>`
+        tabla += `<div class="flip-box-back">`
+        tabla += `<p class='w-100 h5'>${Detalle}</p>`;
+        tabla += `</div>`
+        tabla += `</div>`
+        tabla += `</div>`
 
     }
 
