@@ -61,23 +61,16 @@ function mostrar() {
         Detalle = coches[i][3];
 
         // actualizo la tabla de visualización
-        tabla += `<div class='bg-secondary rounded'>`;
+        tabla += `<div class='bg-secondary bg-gradient rounded'>`;
         tabla += `<h3>${Nom}</h3>`;
         tabla += `<img src="${Foto}" class='img-fluid' alt="">`;
         tabla += `<p class=''>${Pie}</p>`;
         tabla += `<p class='w-100'>${Detalle}</p>`;
         tabla += `</div>`;
 
-
-        //tabla += "<a href='#' class='btn btn-primary'>Ir</a>"
-
-
-        // actualizo el array bidimensional con los usuarios coches
-
     }
 
     //tabla += "</div>";
-
 
     document.getElementById("contenidoXML").innerHTML = tabla;
 }
