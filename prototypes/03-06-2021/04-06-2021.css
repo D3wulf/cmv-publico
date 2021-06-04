@@ -59,3 +59,79 @@
 img {
     max-height: 500px;
 }
+
+#contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+img {
+    max-width: 400px;
+    max-height: 200px;
+}
+
+#imagen {
+    width: 24%;
+    text-align: center;
+    background-color: rgb(25, 54, 54, 0.5);
+    border-radius: 5px;
+    margin: 4px;
+}
+
+
+/* PRACTICA DE MODAL */
+
+
+/* The Modal (background) */
+
+.miModal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 22%;
+    top: 0;
+    width: 75%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+}
+
+
+/* Modal Content */
+
+.modal-contenido {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    pointer-events: auto;
+    background-color: rgb(68, 4, 4, .9);
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    outline: 0;
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
