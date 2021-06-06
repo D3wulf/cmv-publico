@@ -13,8 +13,6 @@ Miguel Angel Sánchez Miranda
 # Nota
 
 Los ejercicios con XML de la carpeta Prototype estan vinculados a un XML local con lo cual se tienen que abrir los html de esa carpeta
-con el Xampp y Localhost 
+con el Xampp y Localhost (para ver en local)
 
-# Para ver el archivo XML del día 3 de Junio
 
-Ejecutar https://d3wulf.github.io/cmv-publico/prototypes/03-06-2021/
