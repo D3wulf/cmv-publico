@@ -1,0 +1,99 @@
+<carlinos>
+    <carlino nro="1">
+        <nombre>Carlino 1</nombre>
+        <foto>./images/dog1.jpg</foto>
+        <pie>Carlino corriendo</pie>
+        <detalle>Carlino</detalle>
+    </carlino>
+    <carlino nro="2">
+        <nombre>Carlino 2</nombre>
+        <foto>./images/dog2.jpg</foto>
+        <pie>Carlino de fiesta</pie>
+        <detalle>Carlino</detalle>
+    </carlino>
+    <carlino nro="3">
+        <nombre>Carlino 3</nombre>
+        <foto>./images/dog3.jpg</foto>
+        <pie>Carlino posando</pie>
+        <detalle>Carlino</detalle>
+    </carlino>
+    <carlino nro="4">
+        <nombre>Carlino 4</nombre>
+        <foto>./images/pug4.jpg</foto>
+        <pie>Carlino tapado</pie>
+        <detalle>Carlino</detalle>
+    </carlino>
+    <carlino nro="5">
+        <nombre>Carlino 5</nombre>
+        <foto>./images/pug5.jpg</foto>
+        <pie>Carlino melancólico</pie>
+        <detalle>Carlino</detalle>
+    </carlino>
+    <carlino nro="6">
+        <nombre>Carlino 6</nombre>
+        <foto>./images/pug6.jpg</foto>
+        <pie>Carlino adulto</pie>
+        <detalle>Carlino</detalle>
+    </carlino>
+    <carlino nro="7">
+        <nombre>Carlino 7</nombre>
+        <foto>./images/pug7.jpg</foto>
+        <pie>Carlino joven</pie>
+        <detalle>Carlino</detalle>
+    </carlino>
+    <carlino nro="8">
+        <nombre>Carlino 8</nombre>
+        <foto>./images/pug8.jpg</foto>
+        <pie>Carlino atento</pie>
+        <detalle>Carlino</detalle>
+    </carlino>
+    <carlino nro="9">
+        <nombre>Carlino 9</nombre>
+        <foto>./images/pug9.jpg</foto>
+        <pie>Carlino manada</pie>
+        <detalle>Carlino</detalle>
+    </carlino>
+    <carlino nro="10">
+        <nombre>Carlino 10</nombre>
+        <foto>./images/pug10.jpg</foto>
+        <pie>Carlino como dios</pie>
+        <detalle>Carlino</detalle>
+    </carlino>
+    <carlino nro="11">
+        <nombre>Carlino 11</nombre>
+        <foto>./images/pug11.jpg</foto>
+        <pie>Carlino feliz</pie>
+        <detalle>Carlino</detalle>
+    </carlino>
+    <carlino nro="12">
+        <nombre>Carlino 12</nombre>
+        <foto>./images/pug12.jpg</foto>
+        <pie>Carlino negro</pie>
+        <detalle>Carlino</detalle>
+    </carlino>
+    <carlino nro="13">
+        <nombre>Carlino 13</nombre>
+        <foto>./images/pug13.jpeg</foto>
+        <pie>Carlino sentado</pie>
+        <detalle>Carlino</detalle>
+    </carlino>
+    <carlino nro="14">
+        <nombre>Carlino 14</nombre>
+        <foto>./images/pug14.jpg</foto>
+        <pie>Carlino pendiente</pie>
+        <detalle>Carlino</detalle>
+    </carlino>
+    <carlino nro="15">
+        <nombre>Carlino 15</nombre>
+        <foto>./images/pug15.jpeg</foto>
+        <pie>Carlino cansado</pie>
+        <detalle>Carlino</detalle>
+    </carlino>
+    <carlino nro="16">
+        <nombre>Carlino 16</nombre>
+        <foto>./images/pug16.jpeg</foto>
+        <pie>Dep Galita</pie>
+        <detalle>Carlino</detalle>
+    </carlino>
+    
+</carlinos>
