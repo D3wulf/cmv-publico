@@ -50,13 +50,24 @@ function cargarArray(xml) {
         // data += `<p class='pie'>${Pie}</p>`;
         // data += `</div>`;
 
+        data += `<div class='flip-box rounded'>`
+        data += `<div class='flip-box-inner'>`
+        data += `<div class='flip-box-front'>`
 
-        data += `<div class="card m-3" style="width: 20%; height: 375px;">`
+
+        data += `<div class="card">`
         data += `<img src="${Foto}" class="card-img-top gris" style="min-height: 200px;" alt="...">`
         data += `<div class="card-body">`
         data += `<h5 class="card-title">${Nom}</h5>`
         data += `<p class="card-text m-0" style="height: 70px;">${Pie}</p>`
             //data +=`<a href="" class="btn btn-primary m-0">Ir</a>`
+        data += `</div>`
+        data += `</div>`
+
+        data += `</div>`
+        data += `<div class="flip-box-back">`
+        data += `<p class='h5'>${Detalle}</p>`;
+        data += `</div>`
         data += `</div>`
         data += `</div>`
 
