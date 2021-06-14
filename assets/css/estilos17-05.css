@@ -20,15 +20,20 @@ button a:hover{
   }
 
   @media screen and (max-width:1400px) { 
-    .card{
+
+    .card {
       width: 50%;
     }
     
   }
   @media screen and (max-width:1040px) { 
-    
+    .card {
+      width: 50%;
+    }
   }
   @media screen and (max-width:735px) { 
-    
+    .card {
+      width: 50%;
+    }
   }
 
