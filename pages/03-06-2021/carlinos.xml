@@ -73,7 +73,7 @@
     </carlino>
     <carlino nro="13">
         <nombre>Carlino 13</nombre>
-        <foto>./images/pug13.jpeg</foto>
+        <foto>./images/pug13.jpg</foto>
         <pie>Carlino sentado</pie>
         <detalle>Le sigue vaya a donde vaya y es un compañero muy fiel.</detalle>
     </carlino>
@@ -85,13 +85,13 @@
     </carlino>
     <carlino nro="15">
         <nombre>Carlino 15</nombre>
-        <foto>./images/pug15.jpeg</foto>
+        <foto>./images/pug15.jpg</foto>
         <pie>Carlino cansado</pie>
         <detalle>Es muy cómico cuando se hace el ofendido, ignorando a su humano y haciéndose el ciego y sordo.</detalle>
     </carlino>
     <carlino nro="16">
         <nombre>Carlino 16</nombre>
-        <foto>./images/pug16.jpeg</foto>
+        <foto>./images/pug16.jpg</foto>
         <pie>Dep Galita</pie>
         <detalle>Los ladridos o las conductas agresivas son inexistentes en esta raza de perro enano.</detalle>
     </carlino>
